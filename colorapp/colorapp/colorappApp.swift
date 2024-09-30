@@ -11,7 +11,7 @@ import SwiftUI
 struct colorappApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreen()
         }
     }
 }
