@@ -14,6 +14,7 @@
 		57CCF8BF2CAAF2790026173B /* colorappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CCF8BE2CAAF2790026173B /* colorappTests.swift */; };
 		57CCF8C92CAAF2790026173B /* colorappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CCF8C82CAAF2790026173B /* colorappUITests.swift */; };
 		57CCF8CB2CAAF2790026173B /* colorappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CCF8CA2CAAF2790026173B /* colorappUITestsLaunchTests.swift */; };
+		57CCF8D82CAAF8DE0026173B /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CCF8D72CAAF8DE0026173B /* SplashScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		57CCF8C42CAAF2790026173B /* colorappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = colorappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57CCF8C82CAAF2790026173B /* colorappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorappUITests.swift; sourceTree = "<group>"; };
 		57CCF8CA2CAAF2790026173B /* colorappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		57CCF8D72CAAF8DE0026173B /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				57CCF8AC2CAAF2770026173B /* colorappApp.swift */,
+				57CCF8D72CAAF8DE0026173B /* SplashScreen.swift */,
 				57CCF8AE2CAAF2770026173B /* ContentView.swift */,
 				57CCF8B02CAAF2780026173B /* Assets.xcassets */,
 				57CCF8B22CAAF2780026173B /* colorapp.entitlements */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57CCF8D82CAAF8DE0026173B /* SplashScreen.swift in Sources */,
 				57CCF8AF2CAAF2770026173B /* ContentView.swift in Sources */,
 				57CCF8AD2CAAF2770026173B /* colorappApp.swift in Sources */,
 			);
